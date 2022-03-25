@@ -1,0 +1,140 @@
+.navbar{
+    /* border: 2px solid red; */
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    background: #eac50b;
+    z-index: 100;
+    /* margin-bottom: 5rem; */
+}
+.navbar-desktop{
+    /* border: 2px solid blue; */
+}
+.desktop-container{
+    /* border: 2px solid blue; */
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+.signup-hamicon{
+    /* border: 2px solid green; */
+    display: flex;
+    /* width: 50%; */    
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.desktop-menulinks ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;    
+    /* border: 1px solid black; */
+}
+.desktop-menulinks li {
+    /* border: 1px solid orange;     */
+    margin: 2rem;
+    text-transform: uppercase;
+    
+}
+.desktop-menulinks li :hover{
+    border-bottom: 2px solid black;
+    
+    
+}
+.desktop-menulinks a{
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid red; */
+}
+.signup-menulinks ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;    
+}
+.signup-menulinks li{
+    /* margin: 2rem; */
+    padding: 2rem;
+    /* border: 2px solid red; */
+}
+.signup-menulinks a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ************* Mobile Menu********* */
+.ham-icon{
+    display: none;
+    font-size: 3rem;
+}
+
+.navbar-mobile{
+    display: none;
+    /* border: 2px solid black; */
+}
+.mobile-container{
+    
+    
+    
+}
+.mobile-menulinks{
+    /* position: relative; */
+    
+}
+.mobile-menulinks ul{
+   
+    list-style: none;
+    font-size: 1.5rem; 
+   
+    text-align: center;
+    
+    
+    height: 100vh;
+    /* min-height: 100vh; */
+    background:#EAC60B; 
+    display: grid;
+    place-content: center;
+    
+    
+    
+}
+.mobile-menulinks li{
+    /* border: 1px solid black; */
+    padding: 2rem;
+    /* width: 200%; */
+   border-bottom: 2px solid black;
+   text-transform: uppercase;
+
+}
+.mobile-menulinks a{
+    text-decoration: none;
+    color: black;
+   
+    
+}
+
+/* ********** Media queries********** */
+
+@media(max-width:990px){
+    .desktop-menulinks ul{
+        display: none;        
+    }
+
+    .ham-icon{
+        display: block;
+        font-size: 3rem;
+    }
+    
+    .navbar-mobile{
+        display: block;
+        /* border: 2px solid black; */
+    }
+   
+    
+}

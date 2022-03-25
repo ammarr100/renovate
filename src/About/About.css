@@ -1,0 +1,41 @@
+.about {
+/* border: 2px solid red; */
+background-color: #E5E5E5;
+padding: 5rem 0;
+
+}
+.aboutus{
+/* border: 2px solid blue; */
+text-align: center;
+padding: 3rem 0;
+}
+.aboutus h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 7.2rem;
+    font-weight: lighter;
+    margin-bottom: 3rem;
+}
+.aboutus p {
+    /* border: 2px solid black; */
+    
+    width: 70%;
+    font-size: 1.8rem;    
+    line-height: 3.5rem;
+    display: block;
+    margin: auto;
+    margin-bottom:3rem ;
+
+}
+.btn-about{
+    text-decoration: none;
+    text-transform: uppercase;
+    /* border: 2px solid black; */
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    text-align: center; 
+    background-color: #EAC60B;
+    color: black;
+
+}
+
+
